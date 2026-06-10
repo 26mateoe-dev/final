@@ -18,14 +18,7 @@
 </HEAD>
 <BODY>
 
-  <div id="clock"></div>
-  <script>
-      function updateClock() {
-        const now = new Date();
-        document.getElementById("clock").innerText = now.toLocaleTimeString();
-      }
-      setInterval(updateClock, 1000);
-      updateClock();
+ 
        <center>
 <br>
   <video width ="600" height = "auto" controls>
@@ -40,7 +33,16 @@ Your browser does not support this video tag.
     <br>
 
     <img src = "images/rapunzelbrush.jpg">
+ 
+         
+ <div id="clock"></div>
+  <script>
+      function updateClock() {
+        const now = new Date();
+        document.getElementById("clock").innerText = now.toLocaleTimeString();
+      }
+      setInterval(updateClock, 1000);
+      updateClock();
   </script>
-
 </BODY>
 </HTML>
